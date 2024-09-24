@@ -10,6 +10,7 @@ export default function Header () {
 				<p>
 					<Link to={"/"}><button>Homepage</button></Link>
 					<Link to={"/characters"}><button>Characters</button></Link>
+					<Link to={"/characters/creator"}><button>Character Creator</button></Link>
 				</p>
 			</p>
 		</div>

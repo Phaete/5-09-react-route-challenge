@@ -7,7 +7,6 @@ type CharacterDetailCardProps = {
 }
 export default function CharacterDetailCard (props : CharacterDetailCardProps) {
 	const id : string | undefined = useParams().id
-
 	const character : Character | undefined = props.characterList.find((character) => character.id.toString() === id)
 
 	return (
